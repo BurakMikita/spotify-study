@@ -1,0 +1,11 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "assets": [
+    {
+      "include": "frontend/dist/**",
+      "watchAssets": false,
+      "exclude": ["frontend/node_modules", "frontend/src"]
+    }
+  ]
+}
